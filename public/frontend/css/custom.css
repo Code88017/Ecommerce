@@ -1,0 +1,91 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.cardd{
+    width: 270px;
+    height: 300px;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: black;
+}
+.trending_tag{
+    font-size: 16px;
+}
+.checkout-form label{
+    font-size: 12px;
+    font-weight: 700;
+}
+.checkout-form input{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px;
+}
+.view-order label{
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 14px;
+}
+.view-order div{
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 14px;
+}
+.checkout-form span{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.rating-css div{
+    color: #ffe400;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+.rating-css input{
+    display: none;
+}
+.rating-css input +label{
+    font-size: 60px;
+    text-shadow: 1px 1px 0 #8f8420;
+    cursor: pointer;
+}
+.rating-css input:checked + label~label{
+    color: #b4afaf;
+}
+.rating-css label:active{
+    transform: scale(0.8);
+    transition: 0.3s ease;
+}
+
+.checked{
+    color: #ffe900;
+}
+.search-bar{
+    width: 40%;
+    margin-left: 5%;
+}
+.whatsapp{
+  
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+.whatsapp img{
+    width: 80px;
+    height: 80px;
+}
+/* .tawk-icon{
+    margin-right: 15px;
+} */
